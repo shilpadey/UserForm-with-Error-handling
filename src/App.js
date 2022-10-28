@@ -17,10 +17,10 @@ function App() {
   };
   
   return (
-    <div>
+    <React.Fragment>
       <UserInput onAddUsers={addUserDataHandler}/>
       <UserList users={usersList}/>
-    </div>
+    </React.Fragment>
   );
 }
 
